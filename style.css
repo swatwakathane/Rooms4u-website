@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(img/background_home.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+}
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+    backface-visibility: visible;
+}
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+    }
+.nav-links li a{
+    text-decoration: none;
+    color: #fff;
+}    
+.reg-btn{
+    background: #fff;
+    color: #000;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.stitle{
+    padding-left: 40px;
+    margin: 50px 0 20px;
+    font-size: 2.2vw;
+    font-weight: 600;
+    color: #333;
+}
+.container{
+    
+    padding: 0 10%;
+}
+.header h3{
+   
+    
+    font-size: 3vw;
+    font-weight: 400;
+    color: #000;
+    text-align: left;
+    padding-top: 15%;
+}
+.header p{
+   
+    
+    font-size: 2vw;
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+    
+}
+.rent h2{
+    font-size: 3vw;
+    font-weight: 400;
+    color: #000;
+}
+.rent p{
+    font-size: 2vw;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #fff;
+    padding: 10px;
+    grid-gap: 20px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .grid-item1 img {
+      height: 400px;
+      width: 400px;
+  }
+  .grid-item1{
+    background-color: #e6dedecc;
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .cta{
+      margin: 80px 0;
+      background-image: linear-gradient(to right, #3f2321, transparent),url(img/home.jpg);
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
+      padding :5%;
+      color: #fff;
+  }
+  cta h3{
+      font-size: 5vw;
+      line-height: 5.3vw;
+      font-weight: 500;
+  }
+  .cta p{
+      font-size: 22px;
+      margin: 10px 0;
+  }
+  .cta-btn{
+      background: #ff5361;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 30px;
+      border-radius: 8px;
+      margin-top: 20px;
+      display: inline-block;
+  }
+  .footer{
+      margin: 80px 0 10px;
+      text-align: center;
+  }
+  .footer a{
+      text-decoration: none;
+      color: #999;
+      font-size: 22px;
+      margin: 0 10px;
+  }
+  .footer hr{
+      background: #999;
+      height: 1px;
+      width: 100%;
+      border: 0;
+      margin: 20px 0;
+  }
+  .footer p{
+      padding-bottom: 15px;
+  }
+  .active{
+      position: relative;
+
+  }
+  .logonew{
+    background-image: url("img\logoBlack.png");
+    background-size: 150px;
+    width: 300px;
+    height: 300px;
+    border: solid 2px red;
+  }
+  .active::after{
+      content:'';
+      background: #fff;
+      width: 25px;
+      height: 2px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -12px;
+      border-radius: 2px;  
+  }
+  .b-btn{
+    background: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.401);
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footerCont{
+    background-color: #000;
+}
+#footerCont{
+    background-color: #000;
+}

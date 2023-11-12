@@ -1,0 +1,44 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    font-family: 'roboto';
+
+}
+#container_outer
+{
+    background: #F8F8F8;
+}
+.about_us_header_container img
+{
+    padding-top: 5%;
+    width:100%;
+    overflow: hidden;
+    opacity: 0.7;
+}
+ .container_inline
+{
+    
+
+    background: #F8F8F8;
+    text-align: center;
+    padding:50px;
+    
+}
+
+.container_inline >div 
+{
+    padding:10px;
+    justify-items: center;
+}
+.container_inline div{
+    
+    min-height: 300px;
+    padding:20px;
+    color:#575757;
+}
+.team_container
+{
+    max-width:600px;
+    padding:80px;
+}

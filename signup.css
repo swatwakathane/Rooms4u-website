@@ -1,0 +1,75 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    background-position: center;
+    background-color: #f8f8f8 !important;
+    
+    margin:0px;
+    padding:0px;
+}
+
+#form_container{
+    
+    max-width: 700px;
+  
+    border-radius:10px;
+    box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+    background: white;
+   
+    margin-top:50px;
+    
+}
+
+#form_container form
+{
+    padding:20px;
+
+    
+    
+    
+}
+#form_container form .form-group,div {
+    
+    
+    padding-left: 0px;
+    
+    
+}
+#form_container form div select
+{
+    color:black;
+    background-color: #f5f5f5;
+    border:0px solid #d6d6d6;
+
+}
+#form_container form div input
+{
+    color:black;
+    background: #f5f5f5;
+    border:0px solid #d6d6d6;
+}
+
+#form_container form .btn-main
+{
+    width:120px;
+    color:white;
+    background: #33b5e5;
+    border:0px;
+    padding:10px;
+    border-radius: 100px;
+}
+
+#form_container form .btn-main:hover
+{
+    
+   
+    background: #1ea3d3;
+}
+/*Remove the blue border*/
+.btn:focus,.btn:active {
+    outline: none !important;
+    -webkit-box-shadow:none; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    none; /* Firefox 3.5 - 3.6 */
+    box-shadow:         none;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+ }
